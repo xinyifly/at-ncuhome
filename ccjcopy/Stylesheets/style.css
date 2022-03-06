@@ -1,0 +1,247 @@
+/* CSS for ccjcopy */
+/* Version: 0.1 */
+/* Author: Chen Zeyu */
+
+/* top */
+body {
+	background-color: #ededee;
+	font-size: 14px;
+}
+span.top {
+	display: block;
+	width: 962px;
+	margin: auto;
+}
+/* login */
+span.top_login {
+	display: inline-block;
+	height: 22px;
+	line-height: 22px;
+}
+a.top_login {
+	font-size: 12px;
+	color: #000;
+}
+span.top_logo {
+	margin-right: 25px;
+}
+/* top2 */
+div.top2 {
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	background-color: #40a1b3;
+}
+div.top2_in {
+	width: 962px;
+	height: 120px;
+	margin: auto;
+}
+/* logo */
+div.top2_logo {
+	margin-right: 104px;
+}
+a.top2_logo {
+	display: block;
+	width: 164px;
+	height: 120px;
+	background: url(../Images/pic.png) no-repeat;
+}
+/* navigation */
+div.top2_nav {
+	margin-top: 72px;
+}
+span.top2_nav {
+	display: block;
+	height: 35px;
+}
+ul.top2_nav {
+	display: inline-block;
+	margin-right: 35px;
+	vertical-align: middle;
+}
+ul.top2_nav {
+	*display: inline;
+}
+li.top2_nav {
+	width: 99px;
+	height: 35px;
+	display: inline-block;
+	text-align: center;
+	line-height: 34px;
+	font-size: 18px;
+}
+li.top2_nav {
+	*display: inline;
+}
+li.top2_nav_bg {
+	background: url(../Images/nav_bg.png) no-repeat;
+}
+li.top2_nav a {
+	color: #fff;
+	text-shadow: 2px 2px 2px gray;
+}
+/* search */
+div.top2_search {
+	width: 220px;
+	height: 35px;
+	display: inline-block;
+	background: url(../Images/search_bg.png) no-repeat;
+	line-height: 35px;
+	vertical-align: middle;
+}
+div.top2_search {
+	*display: inline;
+}
+div.top2_search_pic {
+	width: 21px;
+	height: 35px;
+	background: url(../Images/search_sign.png) no-repeat;
+	margin-left: 10px;
+	display: inline-block;
+	vertical-align: top;
+}
+div.top2_search_pic {
+	*display: inline;
+}
+input.top2_search {
+	width: 160px;
+	background-color: transparent;
+	outline: none;
+	font-size: 14px;
+	color: #a9a9a9;
+}
+span.top2_navdelta {
+	width: 15px;
+	height: 12px;
+	background: url(../Images/sanjiaoxing.png) no-repeat;
+	display: block;
+	margin-top: 2px;
+	margin-left: 38px;
+}
+/* main */
+div.main {
+	width: 962px;
+	margin: 0px auto 30px;
+}
+/* content content1 */
+div.main_content {
+	border-radius: 5px;
+	border-top: 1px solid #e0e0e0;
+	border-left: 4px solid #e0e0e0;
+	border-right: 1px solid #e0e0e0;
+	border-bottom: 2px solid #e0e0e0;
+	margin-top: 24px;
+}
+div.main_content1 {
+	margin-top: 30px;
+}
+div.main_content_in {
+	width: 956px;
+	height: 315px;
+	background-color: #fff;
+}
+div.main_content_in_top_button {
+	display: inline-block;
+	margin-top: 9px;
+	margin-left: 21px;
+}
+a.main_content_in_top_button {
+	display: block;
+	width: 140px;
+	height: 46px;
+}
+div.main_content_in_top_button {
+	*display: inline;
+}
+a.main_content_in_top_button1 {
+	background: url(../Images/symbol_1.png) no-repeat;
+}
+div.main_content_in_top_more {
+	display: inline-block;
+	height: 54px;
+}
+div.main_content_in_top_more {
+	*display: inline;
+	right: 0px;
+	top: 40px;
+}
+a.main_content_in_top_more {
+	font-size: 12px;
+	color: #585858;
+	display: inline-block;
+	width: 42px;
+	margin-right: 34px;
+}
+a.main_content_in_top_more:hover {
+	color: #40a1b3;
+}
+div.main_content_in_pics {
+	padding: 24px;
+	letter-spacing: -4px;
+	margin-top: 4px;
+}
+div.main_content_in_pics_pic {
+	margin: 0px 10px 0px 15px;
+	display: inline-block;
+}
+div.main_content_in_pics_pic {
+	*display: inline;
+}
+img.main_content_in_pics_pic {
+	width: 270px;
+	height: 165px;
+	display: block;
+}
+a.main_content_in_pics_a {
+	display: block;
+	color: #000;
+	font-size: 14px;
+	margin-top: 9px;
+	font-weight: bold;
+	letter-spacing: normal;
+}
+a.main_content_in_pics_a:hover {
+	color: #60b3af;
+}
+/* content2 */
+a.main_content_in_top_button2 {
+	background: url(../Images/symbol_2.png) no-repeat;
+}
+/* content3 */
+a.main_content_in_top_button3 {
+	background: url(../Images/symbol_3.png) no-repeat;
+}
+/* foot */
+div.foot {
+	border-top: 2px solid #e3fffe;
+}
+div.foot_in {
+	height: 120px;
+	background-color: #40a1b3;
+}
+div.foot_in_tools {
+	padding-top: 29px;
+	margin: auto;
+	width: 625px;
+}
+a.foot_in_tools {
+	text-decoration: none;
+	color: #fff;
+}
+a.foot_in_tools:after {
+	content: " |";
+}
+a.foot_in_tools9:after {
+	content: none;
+}
+div.foot_in_copyright {
+	width: 220px;
+	margin: 8px auto 0px;
+}
+span.foot_in_copyright, span.foot_in_tel {
+	color: #fff;
+}
+div.foot_in_tel {
+	width: 580px;
+	margin: 8px auto 0px;
+}

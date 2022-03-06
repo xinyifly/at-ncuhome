@@ -1,0 +1,23 @@
+input {border: 1px solid #a9a9a9;}
+.changeable {
+    width: 100px;
+    height: 100px;
+}
+.contain {
+    margin: auto;
+    height: 480px;
+    width: 640px;
+}
+.inputs {
+    padding-top: 50px;
+    width: 300px;
+}
+.inputs input, .inputs textarea,
+.inputs button {
+    background-color: transparent;
+}
+#moveDiv {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}

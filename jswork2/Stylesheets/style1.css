@@ -1,0 +1,6 @@
+.contain {
+    background: url("../Images/bg2.jpg");
+}
+.contain * {
+    color: gray;
+}

@@ -1,0 +1,15 @@
+* {
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	font-size: 100%;
+	font-weight: normal;
+}
+
+.ovh {overflow: hidden;}
+.fll {float: left;}
+.flr {float: right;}
+.tdn {text-decoration: none;}
+.tdn:hover {text-decoration: underline;}
+.f11 {font-size: 11px;}
+.f12 {font-size: 12px;}

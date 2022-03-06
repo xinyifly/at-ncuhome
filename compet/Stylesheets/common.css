@@ -1,0 +1,467 @@
+body {
+	background: url("../pic/bg.png") repeat;
+}
+.topbar {
+	background: url("../pic/topbar.png") repeat-x;
+	height: 28px;
+	width: 100%;
+}
+.topmain {
+	font-size: 12px;
+	margin: auto;
+	height: 28px;
+	line-height: 28px;
+	width: 1002px;
+}
+.main {
+	margin: auto;
+	margin-bottom: 96px;
+	width: 1002px;
+}
+/* 疑问，两个span一行，为什么第二个span会向下偏移 */
+.quote {
+	display: inline-block;
+	height: 28px;
+	line-height: 28px;
+	vertical-align: top;
+}
+.logo {
+	background: url("../pic/logo.png") no-repeat;
+	display: inline-block;
+	height: 28px;
+	margin-right: 253px;
+	width: 142px;
+}
+.loginbar {
+	float: right;
+	height: 28px;
+}
+.loginbara {
+	color: black;
+}
+.loginbara:hover {
+	color: blue;
+}
+.index, .ico, .login, .signin {
+	display: inline-block;
+	line-height: 28px;
+	padding-left: 22px;
+}
+.index {
+	padding-right: 5px;
+}
+.signin {
+	padding-left: 0px;
+}
+.weibo {
+	background: url("../pic/ico.png") no-repeat;
+}
+.weixin {
+	background: url("../pic/ico.png") no-repeat 0px -23px;
+}
+.kongjian {
+	background: url("../pic/ico.png") no-repeat 0px -47px;
+}
+.up {
+	height: 455px;
+	width: 1002px;
+}
+.note {
+	background: url("../pic/note.png") no-repeat;
+	height: 403px;
+	margin-left: -32px;
+	width: 440px;
+}
+.gameEntrance {
+	height: 68px;
+	left: 271px;
+	top: 336px;
+	width: 77px;
+}
+.gameEntrancea {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+.nav {
+//	background: url("../pic/nav.png") no-repeat;
+	height: 131px;
+	margin-left: 32px;
+	width: 550px;
+}
+.navs {
+	float: left;
+}
+.navs:hover {
+	margin-top: 25px;
+}
+.navs_selected {
+	margin-top: 25px;
+}
+.report {
+	background: url("../pic/report.png") no-repeat;
+	height: 290px;
+	margin-right: -24px;
+	margin-top: 32px;
+	width: 617px;
+}
+.gameDate {
+	height: 156px;
+	left: 74px;
+	top: 88px;
+	width: 210px;
+}
+.reportp {
+	font-size: 14px;
+	padding: 5px 0;
+}
+.gameReport {
+	height: 156px;
+	left: 419px;
+	top: 85px;
+	width: 154px;
+}
+.middle {
+	height: 345px;
+	margin-bottom: 131px;
+	margin-top: 90px;
+	width: 1002px;
+}
+/* 多图切换不会做 */
+.roundabout-holder {
+	list-style: none;
+	padding: 0;
+	margin: auto;
+	height: 344px;
+	width: 697px;
+}
+.roundabout-moveable-item {
+	height: 344px;
+	width: 511px;
+	cursor: pointer;
+//	background-color: #ccc;
+//	border: 1px solid #999;
+}
+.roundabout-in-focus {
+	cursor: auto;
+}
+.picChgPicDiv {
+	border: 6px solid #e21d34;
+	border-radius: 13px;
+	height: 96.4%;
+}
+.picChgIn {
+	border: 1px solid #ec6d7c;
+	border-radius: 7px;
+	height: 99.6%;
+}
+.picChgPic {
+	width: 100%;
+	height: 100%;
+}
+
+.contain {
+	border: 6px #e21d34 solid;
+	border-radius: 15px;
+	width: 985px;
+}
+.containin {
+	border: 1px #ec6878 solid;
+	border-radius: 8px;
+	height: 814px;
+	width: 983px;
+}
+.tops {
+	background: url("../pic/tops.png") no-repeat;
+	height: 771px;
+	margin: 20px 0 0 8px;
+	width: 221px;
+}
+.topsin {
+	background: url("../pic/topsin.png") no-repeat;
+	padding: 53px 0 0 121px;
+	margin-bottom: 4px;
+	width: 100px;
+	height: 330px;
+}
+.topNameMore {
+	height: 21px;
+	left: 158px;
+	top: 21px;
+	width: 57px;
+}
+.topNameMorea {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+.topname {
+	font-size: 14px;
+	height: 16px;
+	margin-bottom: 18.3px;
+	width: 100%;
+}
+.class {
+	background: url("../pic/class.png") no-repeat;
+	height: 775px;
+	margin-top: 20px;
+	width: 88px;
+}
+.show {
+	background: url("../pic/show.png") no-repeat;
+	height: 774px;
+	margin-top: 20px;
+	width: 640px;
+}
+.showMore {
+	height: 21px;
+	left: 566px;
+	top: 17px;
+	width: 57px;
+}
+.showMorea {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+.vote {
+	padding: 60px 0 11px 11px;
+	height: 312px;
+}
+.votein {
+	background-color: black;
+	float: left;
+	height: 148px;
+	margin: 0 10px 16px 0;
+	width: 146px;
+}
+.voteinup {
+	background-color: gray;
+	height: 103px;
+}
+.voteimg {
+	width: 100%;
+	height: 100%;
+}
+.voteindown {
+	background: url("../pic/vote.png") no-repeat;
+	font-size: 21px;
+	height: 21px;
+	padding: 12px 0 12px 73px;
+}
+.votefor {
+	height: 36px;
+	left: 17px;
+	top: 7px;
+	width: 37px;
+}
+.votefora {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+/* 半透明效果 */
+.trbg_red1 {
+	background: url("../pic/trbg/trbg_red.png") repeat;
+	height: 771px;
+	left: 14px;
+	top: 20px;
+	width: 221px;
+	z-index: -1;
+}
+.trbg_red2 {
+	background: url("../pic/trbg/trbg_red.png") repeat;
+	height: 775px;
+	left: 320px;
+	top: 20px;
+	width: 643px;
+	z-index: -1;
+}
+.trbg_yellow1 {
+	background: url("../pic/trbg/trbg_yellow.png") repeat;
+	height: 342px;
+	left: 15px;
+	top: 65px;
+	width: 949px;
+	z-index: -2;
+}
+.trbg_yellow2 {
+	background: url("../pic/trbg/trbg_yellow.png") repeat;
+	height: 344px;
+	left: 13px;
+	top: 450px;
+	width: 952px;
+	z-index: -2;
+}
+
+/* 赛事介绍 */
+.intropng {
+	background: url("../pic/intro.png") no-repeat;
+	height: 335px;
+	left: 485px;
+	top: 77px;
+	width: 446px;
+	z-index: -1;
+}
+.contain_Intro {
+	border-color: #ec6941;
+}
+.containInIntro {
+	background-color: #fff;
+	border: 1px #f29b80 solid;
+	border-radius: 8px;
+	height: 1410px;
+	width: 983px;
+}
+.containIntro {
+	font-family: 黑体;
+	font-size: 29px;
+	padding: 31px 37px 20px;
+	line-height: 56px;
+}
+.trbg_red_intro {
+	background: url("../pic/trbg/trbg_red2.png") repeat;
+}
+.text1 {
+	height: 340px;
+	margin-bottom: 44px;
+	width: 100%;
+}
+.text1p {
+	margin-top: -15px;
+	padding: 0 66px 0 63px;
+}
+.text2 {
+	height: 692px;
+	margin-right: 36px;
+	width: 436.5px;
+}
+.text2p {
+	padding: 21px 63px 0 43px;
+}
+.text3 {
+	height: 692px;
+	width: 436.5px;
+}
+.text4 {
+	height: 245px;
+	margin-top: 38px;
+	width: 100%;
+}
+.text4p {
+	margin-top: -2px;
+	padding: 0 66px 0 63px;
+}
+.deputy {
+	background: url("../pic/deputy_title.png") no-repeat;
+	height: 68px;
+	width: 167px;
+}
+/* 报名参赛 */
+.signuppng {
+	background: url("../pic/signup.png") no-repeat;
+}
+.contain_Signup {
+	border-color: #fff100;
+}
+.containInIntro_Signup {
+	border-color: #fff655;
+}
+.trbg_yellow_signup {
+	background: url("../pic/trbg/trbg_yellow2.png") repeat;
+}
+/* 赛事结果 */
+.resultpng {
+	background: url("../pic/result.png") no-repeat;
+	width: 449px;
+}
+.contain_Result {
+	border-color: #0075a9;
+}
+.containInIntro_Result {
+	border-color: #55a3c6;
+}
+.trbg_blue_result {
+	background: url("../pic/trbg/trbg_blue.png") repeat;
+}
+/* 往期回顾 */
+.pastpng {
+	background: url("../pic/past.png") no-repeat;
+	width: 449px;
+}
+.contain_Past {
+	border-color: #591fea;
+}
+.containInIntro_Past {
+	border-color: #906af1;
+}
+.trbg_purple_past {
+	background: url("../pic/trbg/trbg_purple.png") repeat;
+}
+
+/* 评选入口 */
+.commentpng {
+	background: url("../pic/commet.png") no-repeat;
+}
+.contain_Comment {
+	border-color: #00ff00;
+}
+.containInIntro_Comment {
+	border-color: #55ff55;
+}
+.worksClass {
+	background: url("../pic/trbg/trbg_green.png") repeat;
+	height: 679px;
+	margin: 17px auto 0px;
+	width: 910px;
+}
+.workClassPng {
+	background: url("../pic/workclass.png") no-repeat;
+	height: 520px;
+	width: 132px;
+}
+.vote_Comment {
+	margin-left: 212px;
+	padding: 18px 74px 0 0;
+}
+
+/* 讨论专区 */
+.discusspng {
+	background: url("../pic/discuss.png") no-repeat;
+}
+
+/* Foot */
+.foot {
+	background-color: #fff;
+	height: 280px;
+}
+.footer {
+	font-family: 幼圆, 黑体;
+	margin: auto;
+	left: 485px;
+	top: 77px;
+	padding-top: 20px;
+	width: 1020px;
+	font-size: 23px;
+}
+.footerdiv {
+	margin-bottom: 15px;
+	text-align: center;
+}
+.footera1, .footera2 {
+	color: black;
+	display: inline-block;
+	margin: 0 1px;
+	text-decoration: none;
+}
+.footera1:hover {
+	text-decoration: underline;
+}
+.homelogo {
+	display: block;
+	margin: auto;
+}
+.homelogodiv {
+	margin: auto;
+	width: 150px;
+}

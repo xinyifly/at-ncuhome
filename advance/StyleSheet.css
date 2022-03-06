@@ -1,0 +1,46 @@
+body {
+    background-color: #00ff00;
+}
+div#container {
+    width: 950px;
+}
+div#header {
+    width: 950px;
+    background-color: #ff0000;
+}
+div#menu {
+    background-color: #00ffff;
+    height: 400px;
+    width: 200px;
+    float: left;
+}
+div#content {
+    background-color: #ffff00;
+    height: 400px;
+    width: 750px;
+    float: left;
+}
+div#foot {
+    background-color: #99bbbb;
+    clear: both;
+    text-align: center;
+}
+h1#webhead {
+    margin-bottom: 0;
+}
+h2#menuhead {
+    margin-bottom: 0;
+    font-size: 18px;
+}
+ul#menuul {
+    margin: 0;
+}
+li#menuli {
+    list-style: none;
+}
+button#buttonstyle {
+    background-color: #ff9999;
+}
+button#buttonstyle2 {
+    background-color: #00ffff;
+}

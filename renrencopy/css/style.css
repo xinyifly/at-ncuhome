@@ -1,0 +1,373 @@
+* {
+	font-family: Tahoma;
+}
+/* 顶部蓝色长条 */
+div.headerdiv {
+	background: url(../images/bg.png) repeat-x;
+	height: 74px;
+}
+div.headcenterdiv {
+	width: 980px;
+	margin: auto;
+}
+div.logodiv {
+	margin-right: 35px;
+}
+
+h2.headtitleh2 {
+	text-indent: -9999em;
+	width: 342px;
+	height: 24px;
+	margin-top: 25px;
+	background: url(../images/slogan.png) no-repeat;
+}
+div.headrightdiv {
+	margin-top: 25px;
+	font-size: 9pt;
+}
+div.headmenu, div.headmenumore {
+	height: 24px;
+	line-height: 24px;
+	font-size: 9pt;
+}
+a.headmenua, a.headmenuamore {
+	color: #cee1ee;
+	text-decoration: none;
+	padding: 0px 10px;
+	font-size: 9pt;
+}
+a.headmenuamore {
+	padding: 0px 18px 0px 10px;
+	background: url(../images/ico.png) no-repeat;
+	background-position: right 5px;
+}
+/* 中间主体部分 */
+div.maindiv {
+	width: 980px;
+	height: 714px;
+	margin: auto;
+}
+/* 左侧边栏 */
+div.leftcolumndiv {
+	width: 220px;
+	height: 692px;
+	border: 1px solid #d4d4d4;
+	border-bottom-color: #AAA;
+	border-top: 0px;
+	margin-top: -2px;
+	margin-right: 35px;
+	background: #ebf2fa url(../images/sidebar_bg.png) no-repeat;
+	box-shadow: 0px 1px 1px #CCC;
+}
+/* 登录框 */
+form.loginform {
+	padding: 35px 15px 15px 15px;
+}
+input.inputtext {
+	font-size: 14px;
+	width: 155px;
+	height: 32px;
+	margin-left: 30px;
+	margin-top: 1px;
+}
+div.loginemaildiv, div.loginpassworddiv {
+	border: 1px solid #adb6c9;
+	background-color: #FFF;
+	position: relative;
+	height: 34px;
+	border-radius: 3px;
+}
+div.loginpassworddiv {
+	margin-top: 15px;
+}
+label.emaillabel, label.passwordlabel {
+	position: absolute;
+	left: 4px;
+	top: 4px;
+	width: 25px;
+	height: 25px;
+	text-indent: -9999em;
+}
+label.emaillabel {
+	background: url(../images/ico.png) 7px -85px no-repeat;
+}
+input.inputtext {
+	color: #888888;
+}
+label.passwordlabel {
+	background: url(../images/ico.png) 7px -113px no-repeat;
+}
+div.savepassworddiv {
+	line-height: 20px;
+	margin: 5px 0px;
+}
+label.checkboxlabel {
+	line-height: 27px;
+}
+input.autologininput {
+	margin-right: 5px;
+	vertical-align: middle;
+}
+span.findpasswordspan {
+	float: right;
+	margin-top: 3px;
+}
+a.findpassworda {
+	color: #005eac;
+}
+input.submitinput {
+	width: 190px;
+	height: 38px;
+	text-indent: -9999em;
+	margin-top: 3px;
+	padding: 0px 0px 3px 0px;
+	background: url(../images/btn.png) no-repeat;
+}
+/* 注册框 */
+div.register {
+	margin: 0px 15px;
+	padding: 17px 0px 15px;
+	background: url(../images/border.png) left top repeat-x;
+}
+input.registerbutton {
+	width: 190px;
+	height: 38px;
+	text-indent: -9999em;
+	background: url(../images/btn.png) 0px -38px no-repeat;
+}
+div.newstudentregdiv {
+	margin: 0px 15px 30px;
+	padding: 17px 0px 15px;
+}
+input.newstudentreginput, input.schoolcompetitioninput {
+	width: 190px;
+	height: 38px;
+	text-indent: -9999em;
+}
+input.newstudentreginput {
+	background: url(../images/student_enter.png) no-repeat;
+	padding: 0px 0px 3px 0px;
+}
+input.schoolcompetitioninput {
+	background: url(../images/competition.png) no-repeat;
+	margin-top: 20px;
+	padding: 2px 5px;
+}
+/* 其他帐号登录框 */
+div.rightcolumndiv {
+	width: 659px;
+}
+dl.loginotherway {
+	padding: 0px 15px;
+}
+dl.loginotherway * {
+	font-size: 9pt;
+}
+dt.useotherlogin {
+	color: #666;
+	padding-bottom: 10px;
+}
+dl.loginotherway dd a {
+	color: #005eac;
+	display: inline-block;
+	line-height: 16px;
+}
+a.msnlogin {
+	padding-left: 22px;
+	background: url(../images/ico.png) 0px -292px no-repeat;
+}
+dd.usemsnlogin, dd.use360login {
+	margin: 0px 20px 5px 0px;
+}
+a.u360login {
+	padding-left: 20px;
+	background: url(../images/ico.png) 0px -323px no-repeat;
+}
+a.tianyilogin {
+	padding-left: 20px;
+	background: url(../images/ico.png) 0px -380px no-repeat;
+}
+dd.usetianyilogin {
+	margin-bottom: 5px;
+}
+dd.usebaidulogin {
+	margin: 0px 20px 5px 0px;
+}
+a.baidulogin {
+	padding-left: 22px;
+	margin-top: 5px;
+	background: url(../images/ico.png) 0px -416px no-repeat;
+}
+/* 主体中心 */
+div.centerimgdiv {
+	margin-top: 32px;
+}
+/* 手机客户端介绍 */
+div.introphonediv {
+	margin: 20px auto 10px;
+	height: 315px;
+}
+div.introphoneleftdiv {
+	width: 267px;
+}
+/* 手机客户端下载 */
+div.introphonerightdiv {
+	margin-left: 10px;
+	width: 380px;
+}
+div.introphonetitlediv {
+	margin-top: 50px;
+	height: 90px;
+}
+div.introtwodicodediv {
+	margin-right: 10px;
+}
+a.introtwodicodea {
+	display: block;
+	width: 77px;
+	height: 78px;
+	background: url(../images/twodicode.jpg) no-repeat;
+}
+div.introbigtitlediv {
+	font: 24px 'Microsoft Yahei';
+	color: #333;
+}
+div.introsmalltitlediv {
+	margin-top: 5px;
+	font: 14px 'Microsoft Yahei';
+	color: #a8a8a8;
+}
+div.introphonedownloaddiv {
+	margin-top: 16px;
+	height: 120px;
+	border-bottom: 1px solid #d6dfe4;
+}
+a.androiddownloada, a.iosdownloada {
+	display: block;
+	width: 143px;
+	height: 40px;
+}
+a.androiddownloada {
+	background: url(../images/fourbtn.jpg) no-repeat;
+	margin-right: 12px;
+}
+a.iosdownloada {
+	background: url(../images/fourbtn.jpg) -154px 0px no-repeat;
+}
+div.introtwobtnmorediv {
+	margin-top: 20px;
+}
+span.intromoreclient {
+	display: block;
+	font-size: 9pt;
+	color: #888;
+}
+a.winphonedownloada, a.symbiandownloada {
+	display: block;
+	font-size: 9pt;
+	color: #005eac;
+	height: 20px;
+	padding-left: 20px;
+}
+a.winphonedownloada {
+	background: url(../images/winsym.jpg) 0px -22px no-repeat;
+}
+a.symbiandownloada {
+	background: url(../images/winsym.jpg) 0px 2px no-repeat;
+	margin-left: 15px;
+}
+div.intromoredownloaddiv {
+	margin-top: 13px;
+	font-size: 9pt;
+	color: #888;
+}
+a.intromoredownloada {
+	margin: 0px 10px 0px 5px;
+	color: #005eac;
+}
+/* 了解更多功能 */
+div.moreintrodiv {
+	margin-bottom: 3px;
+	width: 658px;
+}
+a.moreintroa {
+	font-size: 9pt;
+	text-decoration: none;
+	color: #005eac;
+	padding: 10px;
+	text-align: center;
+	display: block;
+	background: url(../images/ico.png) 420px -28px no-repeat;
+	background-color: #f1f6f9;
+}
+a.moreintroa:hover {
+	background-color: #ebf2fa;
+}
+span.moreintrospan {
+	color: #888;
+}
+/* 底部广告与声明 */
+div.footer {
+	width: 980px;
+	padding-top: 10px;
+	border-top: 1px solid #cee1ee;
+	margin: auto;
+	font-size: 9pt;
+	height: 180px;
+}
+span.copyright {
+	display: block;
+	float: left;
+	color: #808080;
+}
+ul.adlinkul {
+	display: block;
+	float: right;
+}
+li.adlinkli, li.adlinkliend {
+	display: inline-block;
+	list-style: none;
+	margin-right: 3px;
+}
+li.adlinkliend {
+	margin-right: 2px;
+}
+li.adlinkli:after {
+	content: " |";
+	color: #aaa;
+}
+a.adlinka {
+	text-decoration: none;
+	color: #005eac;
+}
+a.adlinka:hover {
+	text-decoration: underline;
+}
+/* 底部审查监督 */
+div.inspect {
+	margin-top: 15px;
+	padding: 8px;
+	color: #888;
+	background-color: #f7f7f7;
+	text-align: center;
+	line-height: 25px;
+}
+div.inspect * {
+	font-family: Tahoma,mingliu;
+}
+p.companyname, p.specialad {
+	text-align: center;
+}
+span.dotspan {
+	margin: 0px 8px 0px;
+}
+a.inspecta {
+	text-decoration: none;
+	color: #888;
+}
+a.inspecta:hover {
+	text-decoration: underline;
+}
+img.inspectimg {
+	vertical-align: middle;
+}

@@ -1,0 +1,114 @@
+body {
+	font-family: 微软雅黑;
+	font-size: 14px;
+}
+div.bg {
+	width: 100%;
+	z-index: -1;
+}
+img.bgimg {
+	display: block;
+	height: 874px;
+	min-width: 1160px;
+	width: 100%;
+}
+div.onlyBorder {
+	border-top: 1px solid transparent;
+}
+div.main {
+	background: url(../Images/trbg.png) no-repeat;
+	height: 665px;
+	margin: 39px auto 29px;
+	width: 1047px;
+}
+div.mainIn {
+	padding: 14px 0 0 20px;
+}
+div.contain {
+	width: 980px;
+}
+div.guJian {
+	background: url(../Images/title.png) no-repeat;
+	height: 361px;
+	left: 940px;
+	top: -20px;
+	width: 191px;
+}
+div.appointToDeath {
+	margin-right: 37px;
+	width: 657px;
+}
+div.boySleep {
+	height: 362px;
+}
+p.liveAppoint {
+	font-family: 隶书;
+	font-size: 18px;
+	margin-top: 18px;
+}
+ul.quote {
+	margin-top: 18px;
+	padding-left: 40px;
+}
+a.appointLine {
+	font-size: 12px;
+	margin-left: -6px;
+}
+p.bANDf {
+	background: url(../Images/fls.png) no-repeat;
+	height: 31px;
+	margin: 13px 0 0 48px;
+	width: 246px;
+}
+span.quotespan {
+	float: right;
+}
+p.characterIntroduceHeader {
+	font-family: 隶书;
+	font-size: 18px;
+}
+div.baiLiTuSuImg {
+	background: url(../Images/boy.png) 0px 16px no-repeat;
+	height: 120px;
+	width: 120px;
+}
+p.characterIntroduceDetal {
+	font-size: 13px;
+	line-height: 26px;
+	width: 260px;
+}
+div.fangLanSheng {
+	margin-top: 20px;
+}
+div.fangLanShengImg {
+	background: url(../Images/girl.png) 0px 16px no-repeat;
+	height: 150px;
+	width: 120px;
+}
+div.foot {
+	background: url(../Images/trbg2.png) no-repeat;
+	height: 118px;
+	margin: auto;
+	width: 1047px;
+}
+div.footin {
+	padding: 21px 0px 0px 35px;
+}
+div.game8 {
+	background: url(../Images/game8.png) 0px 4px no-repeat;
+	height: 72px;
+	width: 53px;
+}
+div.duLong {
+	background: url(../Images/dulong.png) 0px 17px no-repeat;
+	height: 72px;
+	margin-left: 26px;
+	width: 95px;
+}
+div.copyright {
+	text-align: center;
+	width: 800px;
+}
+p.copyrightDetal {
+	line-height: 26px;
+}
